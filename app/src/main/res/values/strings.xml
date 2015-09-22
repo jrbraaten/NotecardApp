@@ -3,4 +3,9 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="edit_message">Edit Message</string>
+    <string name="title_activity_help_page">HelpPageActivity</string>
+    <string name="title_activity_create_page">CreatePageActivity</string>
+    <string name="title_activity_about_page">AboutPageActivity</string>
+    <string name="title_activity_learn_page">LearnPageActivity</string>
 </resources>
