@@ -1,81 +1,3 @@
-<!--<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight=".4"
-        android:background="@android:color/background_dark"
-        android:orientation="vertical" >
-
-        <RelativeLayout
-            android:id="@+id/rel_1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#A52A2A" >
-
-            <TextView
-                android:id="@+id/tv_theday"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="1st layout"
-                android:textColor="#FFFFFF" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/rel_2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#8B008B" >
-
-            <TextView
-                android:id="@+id/tv_theday"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="2ndlayout"
-                android:textColor="#FFFFFF" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/rel_3"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:background="#00008B" >
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="3rd layout"
-                android:textColor="#FFFFFF" />
-        </RelativeLayout>
-    </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/rel_side"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight=".56"
-        android:background="#ff0000" >
-
-        <TextView
-            android:id="@+id/tv_theday"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:text="side layout"
-            android:textColor="#FFFFFF" />
-    </RelativeLayout>
-
-</LinearLayout> -->
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -97,12 +19,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".26">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Woot"
                 android:gravity="center"
-                />
+                android:text="Woot" />
 
 
         </RelativeLayout>
@@ -113,10 +35,10 @@
             android:layout_weight=".25">
 
             <Button
+                android:id="@+id/createButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Create"
-                android:id="@+id/createButton"></Button>
+                android:text="Create"></Button>
 
         </RelativeLayout>
 
@@ -126,11 +48,10 @@
             android:layout_weight=".25">
 
             <Button
+                android:id="@+id/learnButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Learn"
-                android:id="@+id/learnButton">
-            </Button>
+                android:text="Learn"></Button>
         </RelativeLayout>
 
         <RelativeLayout
@@ -139,21 +60,22 @@
             android:layout_weight=".25">
 
             <Button
+                android:id="@+id/helpButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="Help"
-                android:id="@+id/helpButton"></Button>
+                android:text="Help"></Button>
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight=".25">
 
             <Button
+                android:id="@+id/aboutButton"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="About"
-                android:id="@+id/aboutButton"></Button>
+                android:text="About"></Button>
         </RelativeLayout>
     </LinearLayout>
 
