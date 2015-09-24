@@ -66,12 +66,12 @@
                 <ScrollView
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/scrollView"
+                    android:id="@+id/frontCardScrollView"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="58dp"
-                    android:background="@android:color/white"/>
+                    android:background="@android:color/white"></ScrollView>
             </RelativeLayout>
 
             <RelativeLayout
@@ -82,12 +82,20 @@
                 <ScrollView
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
-                    android:id="@+id/scrollView"
+                    android:id="@+id/backCardScrollView"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_marginTop="58dp"
-                    android:background="@android:color/white"/>
+                    android:background="@android:color/white">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaaaaaa"
+                    android:clickable="true"/>
+
+                </ScrollView>
             </RelativeLayout>
         </LinearLayout>
     </LinearLayout>
